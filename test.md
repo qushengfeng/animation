@@ -83,6 +83,7 @@
 标题: title　　
 摘要: summary
 
+
 (3)功能　　
 标志：logo　　
 广告：banner　　
@@ -113,47 +114,68 @@
 友情链接：link　　
 版权：copyright
 
+
 （三 ) class的命名:
  (1)颜色:使用颜色的名称或者16进制代码,如　　
 
+
 .red { color: red; } 　　.f60 { color: #f60; } 　
+
 
 　.ff8600 { color: #ff8600; }
 
+
 (2)字体大小,直接使用’font+字体大小’作为名
+
 
 称,如　　
 
+
 .font12px { font-size: 12px; } 　　.font9pt 
+
 
 {font-size: 9pt; }
 
+
 (3)对齐样式,使用对齐目标的英文名称,如　　
+
 
 .left { float:left; } 　　.bottom { float:bottom; }
 
+
 (4)标题栏样式,使用’类别+功能’的方式命名,如
+
 
 　
 
+
 .barnews { } 　　.barproduct { }
+
 
 注意事项:: 　　
 
+
 1.一律小写; 　　
+
 
 2.尽量用英文; 　　
 
+
 3.不加中杠和下划线; 　　
+
 
 4.尽量不缩写，除非一看就明白的单词. 　
 　主要的 master.css　　模块 module.css　　基
 
+
 本共用 base.css 　　布局，版面layout.css　　
+
 
 主题 themes.css　　专栏 columns.css 　　文字 
 
+
 font.css　　表单 forms.css　　补丁 mend.css
+
 
 　　打印print.css
 
